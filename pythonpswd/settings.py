@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'mm0@#6%0kc+o69*4ojs)a_d_nopn=dh8e+_6y0q(%9c(ul_c+%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['generateurduparole.herokuapp.com', 'localhost', '5000-silver-echidna-fb1dwjno.ws-eu03.gitpod.io']
 
