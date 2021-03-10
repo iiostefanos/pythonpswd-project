@@ -25,7 +25,7 @@ SECRET_KEY = 'mm0@#6%0kc+o69*4ojs)a_d_nopn=dh8e+_6y0q(%9c(ul_c+%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['generateurduparole.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['generateurduparole.herokuapp.com', 'localhost', '5000-silver-echidna-fb1dwjno.ws-eu03.gitpod.io']
 
 
 # Application definition
@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'pythonpswd.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd114bn8lbu84k7',
+	    'HOST': 'ec2-54-164-22-242.compute-1.amazonaws.com',
+	    'PORT': '5432',
+	    'USER': 'asfebkvmqwolak',
+	    'PASSWORD': 'd5ff832617234baf47a15496e37cb102289f972110afda261f4ff1fb70738e14',
     }
 }
 
