@@ -25,7 +25,7 @@ SECRET_KEY = 'mm0@#6%0kc+o69*4ojs)a_d_nopn=dh8e+_6y0q(%9c(ul_c+%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['generateurduparole.herokuapp.com']
 
 
 # Application definition
